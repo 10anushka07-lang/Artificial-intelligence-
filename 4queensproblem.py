@@ -15,5 +15,4 @@ def solve(row):
             if solve(row + 1):
                 return True
     return False
-
 solve(0)
